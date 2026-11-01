@@ -110,28 +110,6 @@ Once speakers share a concept and its word, they can invoke it without explainin
 
 That creates a practical tradeoff: compact communication requires an initial investment in learning the vocabulary and rules. Learning time belongs in the evaluation alongside message length.
 
-## A transparent length comparison
-
-The three examples above provide a small, reproducible illustration. The comparison below counts **letters only**, excluding spaces and punctuation, using the exact English readings shown here.
-
-| Hamo expression | English rendering | Hamo letters | English letters | Letters saved by Hamo |
-| :--- | :--- | ---: | ---: | ---: |
-| Kora li hawa wako? | Are you eating food? | 14 | 16 | 2 |
-| Mi tami peko kepo. | I worked well. | 14 | 11 | −3 |
-| Milo taki sera nuka. | We will journey home. | 16 | 17 | 1 |
-| **Total** | | **44** | **44** | **0** |
-
-```mermaid
-xychart-beta horizontal
-    title "Written length in the three examples"
-    x-axis ["Hamo · eating", "English · eating", "Hamo · work", "English · work", "Hamo · home", "English · home"]
-    y-axis "Letters" 0 --> 20
-    bar [14, 16, 14, 11, 16, 17]
-```
-
-**What this shows:** Hamo is shorter in two examples and longer in one; the total letter count is equal. These examples do not establish an overall compression advantage. Different translations change the counts, and written length does not measure speaking time, comprehension, or equivalence of meaning.
-
-Hamo’s more interesting hypothesis is whether its structure enables **reliable expression of complex concepts with less total communication effort**.
 
 ## Measuring real efficiency
 
@@ -162,17 +140,6 @@ To compare Hamo with another language:
 5. Report comprehension, time, and learning cost separately, alongside any combined score.
 
 **Evidence of an advantage would be lower communication cost at comparable comprehension, with the required learning investment made explicit.**
-
-## Development roadmap
-
-- [ ] Publish the complete sound inventory, pronunciation guide, and stress rules.
-- [ ] Define the permitted values and meanings of all four word positions.
-- [ ] Publish the approximately 120-word core lexicon with concise definitions.
-- [ ] Specify the relationship between full CVCV forms and short forms such as **mi** and **li**.
-- [ ] Formalize word order, questions, negation, tense, number, and modifier scope.
-- [ ] Add contrasting examples that distinguish nearby meanings and similar-sounding words.
-- [ ] Test how consistently learners interpret unfamiliar combinations.
-- [ ] Publish reproducible comprehension, speech, and learning benchmarks.
 
 ---
 
