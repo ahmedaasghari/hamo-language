@@ -8,7 +8,6 @@ Hamo is an experimental constructed language designed to express rich ideas thro
 
 The ambition is simple: **communicate more meaning with less effort.** Hamo pursues this through two-syllable words, systematic composition, and a core vocabulary of approximately 120 words.
 
-> **Design status:** This document describes Hamo’s intended architecture. Vocabulary size is a design target; pronunciation, learnability, and communication efficiency still need empirical validation.
 
 [Word architecture](#word-architecture) · [Examples](#hamo-in-use) · [Efficiency](#where-the-efficiency-comes-from) · [Evaluation](#measuring-real-efficiency)
 
