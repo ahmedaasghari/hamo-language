@@ -143,5 +143,3 @@ To compare Hamo with another language:
 ---
 
 **Hamo explores how much shared understanding a small, structured language can carry.**
-
-*Rendering note: the diagrams use Mermaid. The accompanying tables preserve the same information in Markdown viewers without diagram support.*
